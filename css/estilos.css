@@ -1,0 +1,23 @@
+.noticia {
+    height: 300px;
+    background-color: #1F1F1F;
+}
+
+
+body nav div img{
+    border-radius: 40px;
+    width: 90px;
+}
+
+@media screen and (max-width: 650px){
+    .noticia {
+        height: auto;
+    }
+    body {
+        height: auto;
+    }
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
